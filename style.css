@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.random {
+  margin-top: 15px;
+}
+
+ul {
+  display:block;
+  margin: 30px auto 0;
+  width: 1000px;
+}
+
+.container {
+  list-style-type: none;
+  text-align: left;
+  margin: 25px 0;
+  background-color: #D1D0CE;
+}
+
+.title {
+  font-size: 25px;
+}

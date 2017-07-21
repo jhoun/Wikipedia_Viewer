@@ -9,7 +9,7 @@ $(document).on('click', ".submit", function(event){
       result = result.query.pages;
       var list = "<ul class='list'>";
       for (var prop in result){
-        list += `<li class='container'><a href='https://en.wikipedia.org/?curid=${result[prop].pageid}'><span class='title'>${result[prop].title}</span><br><span class='description'>${result[prop].extract}</span></a></li>`;
+        list += `<a href='https://en.wikipedia.org/?curid=${result[prop].pageid}'><li class='container'><span class='title'>${result[prop].title}</span><br><span class='description'>${result[prop].extract}</span></li></a>`;
       }
       list += "</ul>";
       $(".searchResults").html(list);
