@@ -17,3 +17,8 @@ $(document).on('click', ".submit", function(event){
   })
 
 });
+
+$(document).ready(function() {
+  var randomHTML = "<a href='https://en.wikipedia.org/wiki/Special:Random'>Click here for a random Article</a>";
+  $(".random").html(randomHTML);
+});
